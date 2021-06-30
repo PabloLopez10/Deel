@@ -31,7 +31,7 @@ describe('Contracts', () => {
   
     it('Create Fixed Rate Contract', () => {
       loginPage.login(email, password);
-      //homePage.clickPopUpCloseButton();
+      homePage.clickPopUpCloseButton();
       sideBar.clickCreateAContract();
       create.clickCreateFixedRate();
       fixedRate.createFixedRate(contractName, scope, rate, currency, per, specialClause, country, state);

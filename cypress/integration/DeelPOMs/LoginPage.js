@@ -4,7 +4,10 @@ export default class LoginPage {
     // Methods
     acceptAllCookies() {
         cy.wait(2000);
-        cy.get('#CybotCookiebotDialogBodyButtonAccept').click();
+        cy.get('body').then((body) => {
+            if(body.find('#CybotCookiebotDialogBodyButtonAccept').length > 0)
+            cy.get('#CybotCookiebotDialogBodyButtonAccept').click();
+        })
     }
 
     fillEmail(email) {
