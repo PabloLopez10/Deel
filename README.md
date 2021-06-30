@@ -17,4 +17,4 @@ To run the project with the Cypress UI run the following command:
 
 -> npx cypress open
 
-wait for the UI to load and under the "DeelTests" folder you can run manually each of the 2 test files("login.spec.js" and "createFixedRateContract.spec.js").
+Wait for the UI to load and under the "DeelTests" folder you can run manually each of the 2 test files("login.spec.js" and "createFixedRateContract.spec.js").
