@@ -1,0 +1,12 @@
+{
+    "email": "pj9lopez@hotmail.com",
+    "password": "Pablodeeltest1*",
+    "contractName": "Pablo's Contract",
+    "scope": "This is a test",
+    "rate": "1000",
+    "currency": "GBP - British Pound",
+    "per": "Week",
+    "specialClause": "Special Clause: this is a test",
+    "country": "United States",
+    "state": "Colorado"
+  }
