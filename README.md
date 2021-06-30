@@ -1,6 +1,9 @@
 # Deel
 This is an automation library for Deel QA Automation application
 
+Pre-requisite
+-> javascript and node must be installed.
+
 Run the following command on the root folder to install all the dependencies for the the project. 
 -> npm install.
 
